@@ -1,0 +1,2157 @@
+{
+  "note": "Deliberate, hand-verified surveillance scenarios. IDs 9000+ to avoid collision with demo-data/seed.json. See docs/SURVEILLANCE_EXPLANATION.md for the plain-language walkthrough and docs/VALIDATION_REPORT.md for the distance/time verification of every scenario below.",
+  "hamlets": {
+    "cluster_hamlets_near_rasipuram": [
+      {
+        "name": "Rasipuram - Vadakku Colony (N)",
+        "lat": 11.481286,
+        "lng": 78.1897
+      },
+      {
+        "name": "Rasipuram - Kizhakku Colony (E)",
+        "lat": 11.463299,
+        "lng": 78.208052
+      },
+      {
+        "name": "Rasipuram - Therku Colony (S)",
+        "lat": 11.445314,
+        "lng": 78.1897
+      },
+      {
+        "name": "Rasipuram - Merku Colony (W)",
+        "lat": 11.463299,
+        "lng": 78.171348
+      }
+    ],
+    "far_hamlets_across_district": [
+      {
+        "name": "Namakkal Outskirts",
+        "lat": 11.237977,
+        "lng": 78.18715
+      },
+      {
+        "name": "Tiruchengode Outskirts",
+        "lat": 11.360922,
+        "lng": 77.914459
+      },
+      {
+        "name": "Mohanur Outskirts",
+        "lat": 11.254922,
+        "lng": 78.065548
+      },
+      {
+        "name": "Paramathi Outskirts",
+        "lat": 11.367077,
+        "lng": 77.997541
+      }
+    ],
+    "boundary_hamlets_synthetic": [
+      {
+        "name": "Boundary Hamlet 1",
+        "lat": 11.308993,
+        "lng": 78.3
+      },
+      {
+        "name": "Boundary Hamlet 2",
+        "lat": 11.295503,
+        "lng": 78.307942
+      },
+      {
+        "name": "Boundary Hamlet 3",
+        "lat": 11.295503,
+        "lng": 78.292058
+      },
+      {
+        "name": "Boundary Outpost (>5km)",
+        "lat": 11.358456,
+        "lng": 78.3
+      }
+    ]
+  },
+  "users": [
+    {
+      "id": 9001,
+      "name": "Farmer A (Vadakku Colony (N))",
+      "phone": "9713119148",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9002,
+      "name": "Farmer B (Kizhakku Colony (E))",
+      "phone": "9759491792",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9003,
+      "name": "Farmer C (Therku Colony (S))",
+      "phone": "9768741149",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9004,
+      "name": "Farmer D (Merku Colony (W))",
+      "phone": "9771576359",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9005,
+      "name": "Farmer S2-A",
+      "phone": "9734841887",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9006,
+      "name": "Farmer S2-B",
+      "phone": "9718405872",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9007,
+      "name": "Farmer S2-C",
+      "phone": "9709736972",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9008,
+      "name": "Farmer S3-A",
+      "phone": "9789855030",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9009,
+      "name": "Farmer S3-B",
+      "phone": "9788618129",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9010,
+      "name": "Farmer S3-C",
+      "phone": "9729472579",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9011,
+      "name": "Farmer S3-D",
+      "phone": "9721849997",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9012,
+      "name": "Farmer S4-A",
+      "phone": "9769203339",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9013,
+      "name": "Farmer S4-B",
+      "phone": "9742751778",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9014,
+      "name": "Farmer S4-C",
+      "phone": "9774363365",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9015,
+      "name": "Farmer S4-D",
+      "phone": "9744492893",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9016,
+      "name": "Farmer S5-A",
+      "phone": "9715146464",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9017,
+      "name": "Farmer S5-B",
+      "phone": "9735643433",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9018,
+      "name": "Farmer S5-C",
+      "phone": "9717388652",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9019,
+      "name": "Farmer S5-D",
+      "phone": "9754485395",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9020,
+      "name": "Farmer S6-A",
+      "phone": "9766385704",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9021,
+      "name": "Farmer S6-B",
+      "phone": "9792369388",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9022,
+      "name": "Farmer S6-C",
+      "phone": "9702259115",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    },
+    {
+      "id": 9023,
+      "name": "Farmer S6-D",
+      "phone": "9781628191",
+      "role": "farmer",
+      "password_hash": "seed$demo$not_a_real_credential$do_not_use_in_production"
+    }
+  ],
+  "animals": [
+    {
+      "id": 9001,
+      "owner_id": 9001,
+      "name": "Cow-A",
+      "species": "cattle",
+      "breed": "Local Non-Descript",
+      "age": 2.8,
+      "vaccination_status": "up_to_date"
+    },
+    {
+      "id": 9002,
+      "owner_id": 9002,
+      "name": "Cow-B",
+      "species": "cattle",
+      "breed": "Jersey Cross",
+      "age": 3.5,
+      "vaccination_status": "unknown"
+    },
+    {
+      "id": 9003,
+      "owner_id": 9003,
+      "name": "Cow-C",
+      "species": "cattle",
+      "breed": "Kangayam",
+      "age": 3.8,
+      "vaccination_status": "overdue"
+    },
+    {
+      "id": 9004,
+      "owner_id": 9004,
+      "name": "Cow-D",
+      "species": "cattle",
+      "breed": "Jersey Cross",
+      "age": 3.0,
+      "vaccination_status": "up_to_date"
+    },
+    {
+      "id": 9005,
+      "owner_id": 9005,
+      "name": "Goat-S2-A",
+      "species": "goat",
+      "breed": "Local Non-Descript",
+      "age": 4.6,
+      "vaccination_status": "up_to_date"
+    },
+    {
+      "id": 9006,
+      "owner_id": 9006,
+      "name": "Goat-S2-B",
+      "species": "goat",
+      "breed": "Tellicherry",
+      "age": 1.5,
+      "vaccination_status": "overdue"
+    },
+    {
+      "id": 9007,
+      "owner_id": 9007,
+      "name": "Goat-S2-C",
+      "species": "goat",
+      "breed": "Local Non-Descript",
+      "age": 2.0,
+      "vaccination_status": "up_to_date"
+    },
+    {
+      "id": 9008,
+      "owner_id": 9008,
+      "name": "Cow-S3-A",
+      "species": "cattle",
+      "breed": "Jersey Cross",
+      "age": 4.1,
+      "vaccination_status": "up_to_date"
+    },
+    {
+      "id": 9009,
+      "owner_id": 9009,
+      "name": "Cow-S3-B",
+      "species": "cattle",
+      "breed": "Jersey Cross",
+      "age": 1.6,
+      "vaccination_status": "up_to_date"
+    },
+    {
+      "id": 9010,
+      "owner_id": 9010,
+      "name": "Cow-S3-C",
+      "species": "cattle",
+      "breed": "Local Non-Descript",
+      "age": 4.8,
+      "vaccination_status": "overdue"
+    },
+    {
+      "id": 9011,
+      "owner_id": 9011,
+      "name": "Cow-S3-D",
+      "species": "cattle",
+      "breed": "Local Non-Descript",
+      "age": 4.3,
+      "vaccination_status": "up_to_date"
+    },
+    {
+      "id": 9012,
+      "owner_id": 9012,
+      "name": "Cow-S4-A",
+      "species": "cattle",
+      "breed": "Jersey Cross",
+      "age": 2.4,
+      "vaccination_status": "up_to_date"
+    },
+    {
+      "id": 9013,
+      "owner_id": 9013,
+      "name": "Cow-S4-B",
+      "species": "cattle",
+      "breed": "Kangayam",
+      "age": 3.9,
+      "vaccination_status": "up_to_date"
+    },
+    {
+      "id": 9014,
+      "owner_id": 9014,
+      "name": "Cow-S4-C",
+      "species": "cattle",
+      "breed": "Jersey Cross",
+      "age": 2.8,
+      "vaccination_status": "up_to_date"
+    },
+    {
+      "id": 9015,
+      "owner_id": 9015,
+      "name": "Cow-S4-D",
+      "species": "cattle",
+      "breed": "Local Non-Descript",
+      "age": 3.5,
+      "vaccination_status": "unknown"
+    },
+    {
+      "id": 9016,
+      "owner_id": 9016,
+      "name": "Cattle-S5-A",
+      "species": "cattle",
+      "breed": "Kangayam",
+      "age": 4.9,
+      "vaccination_status": "up_to_date"
+    },
+    {
+      "id": 9017,
+      "owner_id": 9017,
+      "name": "Cattle-S5-B",
+      "species": "cattle",
+      "breed": "Jersey Cross",
+      "age": 1.2,
+      "vaccination_status": "up_to_date"
+    },
+    {
+      "id": 9018,
+      "owner_id": 9018,
+      "name": "Goat-S5-C",
+      "species": "goat",
+      "breed": "Tellicherry",
+      "age": 4.4,
+      "vaccination_status": "unknown"
+    },
+    {
+      "id": 9019,
+      "owner_id": 9019,
+      "name": "Cattle-S5-D",
+      "species": "cattle",
+      "breed": "Kangayam",
+      "age": 3.1,
+      "vaccination_status": "unknown"
+    },
+    {
+      "id": 9020,
+      "owner_id": 9020,
+      "name": "Cow-S6-A",
+      "species": "cattle",
+      "breed": "Local Non-Descript",
+      "age": 2.3,
+      "vaccination_status": "overdue"
+    },
+    {
+      "id": 9021,
+      "owner_id": 9021,
+      "name": "Cow-S6-B",
+      "species": "cattle",
+      "breed": "Kangayam",
+      "age": 2.7,
+      "vaccination_status": "up_to_date"
+    },
+    {
+      "id": 9022,
+      "owner_id": 9022,
+      "name": "Cow-S6-C",
+      "species": "cattle",
+      "breed": "Local Non-Descript",
+      "age": 1.4,
+      "vaccination_status": "overdue"
+    },
+    {
+      "id": 9023,
+      "owner_id": 9023,
+      "name": "Cow-S6-D",
+      "species": "cattle",
+      "breed": "Kangayam",
+      "age": 1.3,
+      "vaccination_status": "up_to_date"
+    }
+  ],
+  "reports": [
+    {
+      "id": 9001,
+      "animal_id": 9001,
+      "symptoms": [
+        "fever",
+        "mouth_lesions",
+        "lameness",
+        "excess_salivation"
+      ],
+      "duration_days": 2,
+      "other_animals_affected": true,
+      "lat": 11.481286,
+      "lng": 78.1897,
+      "created_at": "2026-08-23T08:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9002,
+      "animal_id": 9002,
+      "symptoms": [
+        "fever",
+        "mouth_lesions",
+        "lameness",
+        "excess_salivation"
+      ],
+      "duration_days": 3,
+      "other_animals_affected": true,
+      "lat": 11.463299,
+      "lng": 78.208052,
+      "created_at": "2026-08-24T00:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9003,
+      "animal_id": 9003,
+      "symptoms": [
+        "fever",
+        "mouth_lesions",
+        "lameness",
+        "excess_salivation"
+      ],
+      "duration_days": 2,
+      "other_animals_affected": true,
+      "lat": 11.445314,
+      "lng": 78.1897,
+      "created_at": "2026-08-25T01:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9004,
+      "animal_id": 9004,
+      "symptoms": [
+        "fever",
+        "mouth_lesions",
+        "lameness",
+        "excess_salivation"
+      ],
+      "duration_days": 3,
+      "other_animals_affected": true,
+      "lat": 11.463299,
+      "lng": 78.171348,
+      "created_at": "2026-08-26T01:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9005,
+      "animal_id": 9005,
+      "symptoms": [
+        "fever",
+        "nasal_discharge",
+        "diarrhea",
+        "mouth_lesions"
+      ],
+      "duration_days": 2,
+      "other_animals_affected": true,
+      "lat": 11.481286,
+      "lng": 78.1897,
+      "created_at": "2026-08-24T02:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9006,
+      "animal_id": 9006,
+      "symptoms": [
+        "fever",
+        "nasal_discharge",
+        "diarrhea",
+        "mouth_lesions"
+      ],
+      "duration_days": 2,
+      "other_animals_affected": true,
+      "lat": 11.463299,
+      "lng": 78.208052,
+      "created_at": "2026-08-25T04:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9007,
+      "animal_id": 9007,
+      "symptoms": [
+        "fever",
+        "nasal_discharge",
+        "diarrhea",
+        "mouth_lesions"
+      ],
+      "duration_days": 2,
+      "other_animals_affected": true,
+      "lat": 11.445314,
+      "lng": 78.1897,
+      "created_at": "2026-08-26T06:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9008,
+      "animal_id": 9008,
+      "symptoms": [
+        "fever",
+        "mouth_lesions",
+        "lameness",
+        "excess_salivation"
+      ],
+      "duration_days": 2,
+      "other_animals_affected": true,
+      "lat": 11.237977,
+      "lng": 78.18715,
+      "created_at": "2026-08-24T23:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9009,
+      "animal_id": 9009,
+      "symptoms": [
+        "fever",
+        "mouth_lesions",
+        "lameness",
+        "excess_salivation"
+      ],
+      "duration_days": 2,
+      "other_animals_affected": true,
+      "lat": 11.360922,
+      "lng": 77.914459,
+      "created_at": "2026-08-25T02:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9010,
+      "animal_id": 9010,
+      "symptoms": [
+        "fever",
+        "mouth_lesions",
+        "lameness",
+        "excess_salivation"
+      ],
+      "duration_days": 2,
+      "other_animals_affected": true,
+      "lat": 11.254922,
+      "lng": 78.065548,
+      "created_at": "2026-08-25T02:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9011,
+      "animal_id": 9011,
+      "symptoms": [
+        "fever",
+        "mouth_lesions",
+        "lameness",
+        "excess_salivation"
+      ],
+      "duration_days": 2,
+      "other_animals_affected": true,
+      "lat": 11.367077,
+      "lng": 77.997541,
+      "created_at": "2026-08-25T03:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9012,
+      "animal_id": 9012,
+      "symptoms": [
+        "fever",
+        "mouth_lesions",
+        "lameness",
+        "excess_salivation"
+      ],
+      "duration_days": 2,
+      "other_animals_affected": true,
+      "lat": 11.481286,
+      "lng": 78.1897,
+      "created_at": "2026-08-09T04:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9013,
+      "animal_id": 9013,
+      "symptoms": [
+        "fever",
+        "mouth_lesions",
+        "lameness",
+        "excess_salivation"
+      ],
+      "duration_days": 2,
+      "other_animals_affected": true,
+      "lat": 11.463299,
+      "lng": 78.208052,
+      "created_at": "2026-08-15T04:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9014,
+      "animal_id": 9014,
+      "symptoms": [
+        "fever",
+        "mouth_lesions",
+        "lameness",
+        "excess_salivation"
+      ],
+      "duration_days": 2,
+      "other_animals_affected": true,
+      "lat": 11.445314,
+      "lng": 78.1897,
+      "created_at": "2026-08-21T03:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9015,
+      "animal_id": 9015,
+      "symptoms": [
+        "fever",
+        "mouth_lesions",
+        "lameness",
+        "excess_salivation"
+      ],
+      "duration_days": 2,
+      "other_animals_affected": true,
+      "lat": 11.463299,
+      "lng": 78.171348,
+      "created_at": "2026-08-28T08:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9016,
+      "animal_id": 9016,
+      "symptoms": [
+        "fever",
+        "mouth_lesions",
+        "lameness",
+        "excess_salivation"
+      ],
+      "duration_days": 2,
+      "other_animals_affected": false,
+      "lat": 11.481286,
+      "lng": 78.1897,
+      "created_at": "2026-08-24T08:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9017,
+      "animal_id": 9017,
+      "symptoms": [
+        "udder_swelling",
+        "milk_abnormality",
+        "fever"
+      ],
+      "duration_days": 2,
+      "other_animals_affected": false,
+      "lat": 11.463299,
+      "lng": 78.208052,
+      "created_at": "2026-08-25T05:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9018,
+      "animal_id": 9018,
+      "symptoms": [
+        "fever",
+        "nasal_discharge",
+        "diarrhea",
+        "eye_discharge"
+      ],
+      "duration_days": 2,
+      "other_animals_affected": false,
+      "lat": 11.445314,
+      "lng": 78.1897,
+      "created_at": "2026-08-26T05:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9019,
+      "animal_id": 9019,
+      "symptoms": [
+        "sudden_lameness",
+        "muscle_swelling",
+        "fever",
+        "depression"
+      ],
+      "duration_days": 2,
+      "other_animals_affected": false,
+      "lat": 11.463299,
+      "lng": 78.171348,
+      "created_at": "2026-08-27T00:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9020,
+      "animal_id": 9020,
+      "symptoms": [
+        "fever",
+        "mouth_lesions",
+        "lameness",
+        "excess_salivation"
+      ],
+      "duration_days": 1,
+      "other_animals_affected": true,
+      "lat": 11.308993,
+      "lng": 78.3,
+      "created_at": "2026-08-27T09:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9021,
+      "animal_id": 9021,
+      "symptoms": [
+        "fever",
+        "mouth_lesions",
+        "lameness",
+        "excess_salivation"
+      ],
+      "duration_days": 1,
+      "other_animals_affected": true,
+      "lat": 11.295503,
+      "lng": 78.307942,
+      "created_at": "2026-08-27T05:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9022,
+      "animal_id": 9022,
+      "symptoms": [
+        "fever",
+        "mouth_lesions",
+        "lameness",
+        "excess_salivation"
+      ],
+      "duration_days": 1,
+      "other_animals_affected": true,
+      "lat": 11.295503,
+      "lng": 78.292058,
+      "created_at": "2026-08-27T08:00:00Z",
+      "synced": true
+    },
+    {
+      "id": 9023,
+      "animal_id": 9023,
+      "symptoms": [
+        "fever",
+        "mouth_lesions",
+        "lameness",
+        "excess_salivation"
+      ],
+      "duration_days": 1,
+      "other_animals_affected": false,
+      "lat": 11.358456,
+      "lng": 78.3,
+      "created_at": "2026-08-27T02:00:00Z",
+      "synced": true
+    }
+  ],
+  "risk_results": [
+    {
+      "report_id": 9001,
+      "ranked_diseases": [
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 86.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            },
+            {
+              "symptom": "lameness",
+              "weight": 0.3
+            },
+            {
+              "symptom": "excess_salivation",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        },
+        {
+          "name": "Blackleg",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "report_id": 9002,
+      "ranked_diseases": [
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 86.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            },
+            {
+              "symptom": "lameness",
+              "weight": 0.3
+            },
+            {
+              "symptom": "excess_salivation",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        },
+        {
+          "name": "Blackleg",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "report_id": 9003,
+      "ranked_diseases": [
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 86.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            },
+            {
+              "symptom": "lameness",
+              "weight": 0.3
+            },
+            {
+              "symptom": "excess_salivation",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        },
+        {
+          "name": "Blackleg",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "report_id": 9004,
+      "ranked_diseases": [
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 86.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            },
+            {
+              "symptom": "lameness",
+              "weight": 0.3
+            },
+            {
+              "symptom": "excess_salivation",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        },
+        {
+          "name": "Blackleg",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "report_id": 9005,
+      "ranked_diseases": [
+        {
+          "name": "Peste des Petits Ruminants (PPR)",
+          "risk_percent": 85.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "diarrhea",
+              "weight": 0.25
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            },
+            {
+              "symptom": "nasal_discharge",
+              "weight": 0.2
+            },
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.2
+            }
+          ]
+        },
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 46.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "No reliable age-specific difference is being used in this assessment."
+    },
+    {
+      "report_id": 9006,
+      "ranked_diseases": [
+        {
+          "name": "Peste des Petits Ruminants (PPR)",
+          "risk_percent": 85.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "diarrhea",
+              "weight": 0.25
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            },
+            {
+              "symptom": "nasal_discharge",
+              "weight": 0.2
+            },
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.2
+            }
+          ]
+        },
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 46.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "No reliable age-specific difference is being used in this assessment."
+    },
+    {
+      "report_id": 9007,
+      "ranked_diseases": [
+        {
+          "name": "Peste des Petits Ruminants (PPR)",
+          "risk_percent": 85.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "diarrhea",
+              "weight": 0.25
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            },
+            {
+              "symptom": "nasal_discharge",
+              "weight": 0.2
+            },
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.2
+            }
+          ]
+        },
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 46.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "No reliable age-specific difference is being used in this assessment."
+    },
+    {
+      "report_id": 9008,
+      "ranked_diseases": [
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 86.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            },
+            {
+              "symptom": "lameness",
+              "weight": 0.3
+            },
+            {
+              "symptom": "excess_salivation",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        },
+        {
+          "name": "Blackleg",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "report_id": 9009,
+      "ranked_diseases": [
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 86.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            },
+            {
+              "symptom": "lameness",
+              "weight": 0.3
+            },
+            {
+              "symptom": "excess_salivation",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        },
+        {
+          "name": "Blackleg",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "report_id": 9010,
+      "ranked_diseases": [
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 86.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            },
+            {
+              "symptom": "lameness",
+              "weight": 0.3
+            },
+            {
+              "symptom": "excess_salivation",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        },
+        {
+          "name": "Blackleg",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "report_id": 9011,
+      "ranked_diseases": [
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 86.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            },
+            {
+              "symptom": "lameness",
+              "weight": 0.3
+            },
+            {
+              "symptom": "excess_salivation",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        },
+        {
+          "name": "Blackleg",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "report_id": 9012,
+      "ranked_diseases": [
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 86.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            },
+            {
+              "symptom": "lameness",
+              "weight": 0.3
+            },
+            {
+              "symptom": "excess_salivation",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        },
+        {
+          "name": "Blackleg",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "report_id": 9013,
+      "ranked_diseases": [
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 86.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            },
+            {
+              "symptom": "lameness",
+              "weight": 0.3
+            },
+            {
+              "symptom": "excess_salivation",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        },
+        {
+          "name": "Blackleg",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "report_id": 9014,
+      "ranked_diseases": [
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 86.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            },
+            {
+              "symptom": "lameness",
+              "weight": 0.3
+            },
+            {
+              "symptom": "excess_salivation",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        },
+        {
+          "name": "Blackleg",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "report_id": 9015,
+      "ranked_diseases": [
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 86.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            },
+            {
+              "symptom": "lameness",
+              "weight": 0.3
+            },
+            {
+              "symptom": "excess_salivation",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        },
+        {
+          "name": "Blackleg",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "report_id": 9016,
+      "ranked_diseases": [
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 86.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            },
+            {
+              "symptom": "lameness",
+              "weight": 0.3
+            },
+            {
+              "symptom": "excess_salivation",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        },
+        {
+          "name": "Blackleg",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "report_id": 9017,
+      "ranked_diseases": [
+        {
+          "name": "Mastitis",
+          "risk_percent": 90.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "udder_swelling",
+              "weight": 0.4
+            },
+            {
+              "symptom": "milk_abnormality",
+              "weight": 0.35
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "No reliable age-specific difference is being used in this assessment."
+    },
+    {
+      "report_id": 9018,
+      "ranked_diseases": [
+        {
+          "name": "Peste des Petits Ruminants (PPR)",
+          "risk_percent": 80.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "diarrhea",
+              "weight": 0.25
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            },
+            {
+              "symptom": "nasal_discharge",
+              "weight": 0.2
+            },
+            {
+              "symptom": "eye_discharge",
+              "weight": 0.15
+            }
+          ]
+        },
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "No reliable age-specific difference is being used in this assessment."
+    },
+    {
+      "report_id": 9019,
+      "ranked_diseases": [
+        {
+          "name": "Blackleg",
+          "risk_percent": 100.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "sudden_lameness",
+              "weight": 0.35
+            },
+            {
+              "symptom": "muscle_swelling",
+              "weight": 0.35
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            },
+            {
+              "symptom": "depression",
+              "weight": 0.1
+            }
+          ]
+        },
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "No reliable age-specific difference is being used in this assessment."
+    },
+    {
+      "report_id": 9020,
+      "ranked_diseases": [
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 86.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            },
+            {
+              "symptom": "lameness",
+              "weight": 0.3
+            },
+            {
+              "symptom": "excess_salivation",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        },
+        {
+          "name": "Blackleg",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "report_id": 9021,
+      "ranked_diseases": [
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 86.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            },
+            {
+              "symptom": "lameness",
+              "weight": 0.3
+            },
+            {
+              "symptom": "excess_salivation",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        },
+        {
+          "name": "Blackleg",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "report_id": 9022,
+      "ranked_diseases": [
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 86.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            },
+            {
+              "symptom": "lameness",
+              "weight": 0.3
+            },
+            {
+              "symptom": "excess_salivation",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        },
+        {
+          "name": "Blackleg",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "report_id": 9023,
+      "ranked_diseases": [
+        {
+          "name": "Foot and Mouth Disease (FMD)",
+          "risk_percent": 86.7,
+          "contributing_symptoms": [
+            {
+              "symptom": "mouth_lesions",
+              "weight": 0.4
+            },
+            {
+              "symptom": "fever",
+              "weight": 0.3
+            },
+            {
+              "symptom": "lameness",
+              "weight": 0.3
+            },
+            {
+              "symptom": "excess_salivation",
+              "weight": 0.3
+            }
+          ]
+        },
+        {
+          "name": "Hemorrhagic Septicemia (HS)",
+          "risk_percent": 25.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.25
+            }
+          ]
+        },
+        {
+          "name": "Blackleg",
+          "risk_percent": 20.0,
+          "contributing_symptoms": [
+            {
+              "symptom": "fever",
+              "weight": 0.2
+            }
+          ]
+        }
+      ],
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    }
+  ],
+  "cases": [
+    {
+      "id": 9001,
+      "report_id": 9001,
+      "status": "vet_review",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9002,
+      "report_id": 9002,
+      "status": "vet_review",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9003,
+      "report_id": 9003,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9004,
+      "report_id": 9004,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9005,
+      "report_id": 9005,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9006,
+      "report_id": 9006,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9007,
+      "report_id": 9007,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9008,
+      "report_id": 9008,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9009,
+      "report_id": 9009,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9010,
+      "report_id": 9010,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9011,
+      "report_id": 9011,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9012,
+      "report_id": 9012,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9013,
+      "report_id": 9013,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9014,
+      "report_id": 9014,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9015,
+      "report_id": 9015,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9016,
+      "report_id": 9016,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9017,
+      "report_id": 9017,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9018,
+      "report_id": 9018,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9019,
+      "report_id": 9019,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9020,
+      "report_id": 9020,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9021,
+      "report_id": 9021,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9022,
+      "report_id": 9022,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    },
+    {
+      "id": 9023,
+      "report_id": 9023,
+      "status": "ai_assessed",
+      "assigned_vet_id": null,
+      "lab_result": null
+    }
+  ],
+  "clusters": [
+    {
+      "id": 9001,
+      "disease_name": "Foot and Mouth Disease (FMD)",
+      "case_ids": [
+        9001,
+        9002,
+        9003,
+        9004
+      ],
+      "center_lat": 11.463299,
+      "center_lng": 78.1897,
+      "radius_km": 2.0,
+      "window_days": 7,
+      "created_at": "2026-08-29T09:00:00Z"
+    }
+  ],
+  "scenarios": {
+    "S1_positive_cluster": {
+      "description": "4 cattle FMD reports in satellite hamlets of Rasipuram, all within 4km of each other (well under 5km) and within a 3-day span (well under 7 days).",
+      "expected_result": "CLUSTER DETECTED",
+      "report_ids": [
+        9001,
+        9002,
+        9003,
+        9004
+      ],
+      "case_ids": [
+        9001,
+        9002,
+        9003,
+        9004
+      ],
+      "cluster_id": 9001
+    },
+    "S2_negative_only_3_cases": {
+      "description": "3 goat PPR reports, same tight hamlets, same week -- one short of the 4-case minimum.",
+      "expected_result": "NO CLUSTER (count = 3, minimum = 4)",
+      "report_ids": [
+        9005,
+        9006,
+        9007
+      ]
+    },
+    "S3_negative_too_far_apart": {
+      "description": "4 cattle FMD reports, same week, but each in a different corner of the district (min pairwise distance ~9km) -- exceeds the 5km spatial threshold.",
+      "expected_result": "NO CLUSTER (distance threshold exceeded)",
+      "report_ids": [
+        9008,
+        9009,
+        9010,
+        9011
+      ]
+    },
+    "S4_negative_outside_time_window": {
+      "description": "4 cattle FMD reports, same tight hamlets (<=4km apart), but spread across 19 days -- exceeds the 7-day window in total spread.",
+      "expected_result": "NO CLUSTER (temporal window exceeded)",
+      "report_ids": [
+        9012,
+        9013,
+        9014,
+        9015
+      ]
+    },
+    "S5_negative_different_top_disease": {
+      "description": "4 reports in the same tight hamlets, same week, but each animal's top-ranked disease differs (FMD, Mastitis, PPR, Blackleg) -- same-disease grouping never reaches 4.",
+      "expected_result": "NO CLUSTER (no shared top-ranked disease across >=4 reports)",
+      "report_ids": [
+        9016,
+        9017,
+        9018,
+        9019
+      ]
+    },
+    "S6_boundary_near_miss": {
+      "description": "3 cattle FMD reports tightly clustered (~1.7km apart, same day) that would need a 4th to trigger -- the 4th same-disease, same-week report is placed 4.6-7.1km away, just outside the 5km threshold.",
+      "expected_result": "NO CLUSTER (3 in-range reports is one below minimum; 4th report is out of spatial range)",
+      "report_ids": [
+        9020,
+        9021,
+        9022,
+        9023
+      ]
+    }
+  }
+}
