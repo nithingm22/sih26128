@@ -1,0 +1,76 @@
+{
+  "diseases": [
+    {
+      "name": "Foot and Mouth Disease (FMD)",
+      "species": ["cattle", "buffalo", "goat", "sheep", "pig"],
+      "symptom_weights": {
+        "fever": 0.3, "mouth_lesions": 0.4, "lameness": 0.3,
+        "appetite_loss": 0.2, "excess_salivation": 0.3
+      },
+      "breed_relevant": false,
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_relevant": true,
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "name": "Mastitis",
+      "species": ["cattle", "buffalo", "goat"],
+      "symptom_weights": {
+        "swollen_udder": 0.5, "fever": 0.2, "abnormal_milk": 0.5,
+        "appetite_loss": 0.1, "pain_on_touch": 0.3
+      },
+      "breed_relevant": true,
+      "breed_note": "High-yield dairy breeds are more prone to mastitis and may need closer monitoring.",
+      "age_relevant": false,
+      "age_note": "No reliable age-specific difference is being used in this assessment."
+    },
+    {
+      "name": "Hemorrhagic Septicemia",
+      "species": ["cattle", "buffalo"],
+      "symptom_weights": {
+        "fever": 0.4, "difficulty_breathing": 0.4, "swelling_throat": 0.4,
+        "sudden_death_in_herd": 0.5, "appetite_loss": 0.2
+      },
+      "breed_relevant": false,
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_relevant": false,
+      "age_note": "No reliable age-specific difference is being used in this assessment."
+    },
+    {
+      "name": "Blackleg",
+      "species": ["cattle", "sheep", "goat"],
+      "symptom_weights": {
+        "lameness": 0.3, "swelling_muscle": 0.5, "fever": 0.3,
+        "sudden_death_in_herd": 0.4, "appetite_loss": 0.2
+      },
+      "breed_relevant": false,
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_relevant": true,
+      "age_note": "Young, fast-growing animals (6-24 months) are at higher risk."
+    },
+    {
+      "name": "Newcastle Disease",
+      "species": ["poultry"],
+      "symptom_weights": {
+        "difficulty_breathing": 0.4, "diarrhea": 0.3, "nervous_signs": 0.5,
+        "drop_in_egg_production": 0.4, "sudden_death_in_herd": 0.4
+      },
+      "breed_relevant": false,
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_relevant": true,
+      "age_note": "Young birds tend to show more severe nervous signs and higher mortality."
+    },
+    {
+      "name": "Peste des Petits Ruminants (PPR)",
+      "species": ["goat", "sheep"],
+      "symptom_weights": {
+        "fever": 0.3, "mouth_lesions": 0.3, "diarrhea": 0.4,
+        "difficulty_breathing": 0.3, "appetite_loss": 0.2
+      },
+      "breed_relevant": false,
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_relevant": true,
+      "age_note": "Young animals typically show more severe disease and higher mortality."
+    }
+  ]
+}

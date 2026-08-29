@@ -1,0 +1,22 @@
+{
+  "default": {
+    "low": {
+      "immediate_care": ["Isolate the animal from the rest of the herd as a precaution.", "Monitor temperature and appetite twice daily."],
+      "prevention": ["Maintain clean housing and fresh water.", "Continue routine vaccination schedule."],
+      "vet_urgency": "low",
+      "avoid": ["Do not administer unprescribed antibiotics."]
+    },
+    "medium": {
+      "immediate_care": ["Isolate the animal immediately.", "Provide clean water and easily digestible feed.", "Keep a symptom log with dates and times."],
+      "prevention": ["Disinfect shared feeding/watering equipment.", "Restrict movement of other animals in and out of the shed."],
+      "vet_urgency": "medium",
+      "avoid": ["Do not mix this animal's milk/produce with the general supply.", "Do not self-medicate without vet guidance."]
+    },
+    "high": {
+      "immediate_care": ["Isolate the animal immediately and limit all contact.", "Contact a veterinarian as soon as possible — do not wait.", "Keep the animal warm, hydrated, and calm while waiting for the vet."],
+      "prevention": ["Quarantine the whole affected group if more than one animal shows symptoms.", "Disinfect the shed, equipment, and footwear before/after entry.", "Report to local veterinary authority if outbreak is suspected."],
+      "vet_urgency": "high",
+      "avoid": ["Do not move the animal to a market or shared grazing area.", "Do not delay veterinary contact hoping symptoms resolve on their own."]
+    }
+  }
+}
