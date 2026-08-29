@@ -1,0 +1,93 @@
+{
+  "diseases": [
+    {
+      "name": "Foot and Mouth Disease (FMD)",
+      "species": ["cattle", "buffalo", "goat"],
+      "symptom_weights": {
+        "fever": 0.3,
+        "mouth_lesions": 0.4,
+        "lameness": 0.3,
+        "appetite_loss": 0.2,
+        "excess_salivation": 0.3
+      },
+      "breed_relevant": false,
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_relevant": true,
+      "age_note": "Young calves are more likely to show severe symptoms and need faster referral."
+    },
+    {
+      "name": "Mastitis",
+      "species": ["cattle", "goat"],
+      "symptom_weights": {
+        "udder_swelling": 0.5,
+        "fever": 0.2,
+        "abnormal_milk": 0.4,
+        "appetite_loss": 0.1
+      },
+      "breed_relevant": false,
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_relevant": false,
+      "age_note": "Age is not significantly changing this assessment."
+    },
+        {
+      "name": "Blackleg",
+      "species": ["cattle", "sheep"],
+      "symptom_weights": {
+        "fever": 0.3,
+        "lameness": 0.5,
+        "muscle_swelling": 0.5,
+        "depression": 0.3,
+        "tremors": 0.2
+      },
+      "breed_relevant": false,
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_relevant": true,
+      "age_note": "Most cattle cases occur in animals 6–24 months old."
+    },
+    {
+      "name": "Hemorrhagic Septicemia",
+      "species": ["cattle", "buffalo"],
+      "symptom_weights": {
+        "fever": 0.4,
+        "excess_salivation": 0.4,
+        "nasal_discharge": 0.4,
+        "respiratory_distress": 0.5,
+        "neck_swelling": 0.5
+      },
+      "breed_relevant": false,
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_relevant": true,
+      "age_note": "In endemic areas, HS affects older calves and young adults."
+    },
+        {
+      "name": "Anthrax",
+      "species": ["cattle", "sheep", "goat"],
+      "symptom_weights": {
+        "fever": 0.4,
+        "tremors": 0.4,
+        "respiratory_distress": 0.4,
+        "depression": 0.3,
+        "weakness": 0.3
+      },
+      "breed_relevant": false,
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_relevant": false,
+      "age_note": "Age is not being used as a primary scoring factor in this assessment."
+    },
+    {
+      "name": "Contagious Bovine Pleuropneumonia (CBPP)",
+      "species": ["cattle"],
+      "symptom_weights": {
+        "fever": 0.4,
+        "appetite_loss": 0.3,
+        "cough": 0.4,
+        "nasal_discharge": 0.3,
+        "respiratory_distress": 0.5
+      },
+      "breed_relevant": false,
+      "breed_note": "No reliable breed-specific difference is being used in this assessment.",
+      "age_relevant": false,
+      "age_note": "Age is not being used as a primary scoring factor in this assessment."
+    }
+  ]
+}

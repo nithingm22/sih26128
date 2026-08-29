@@ -1,0 +1,195 @@
+{
+  "Foot and Mouth Disease (FMD)": {
+    "high": {
+      "immediate_care": [
+        "Isolate the animal from the herd immediately",
+        "Provide soft, easy-to-chew feed",
+        "Keep the animal hydrated"
+      ],
+      "prevention": [
+        "Disinfect the shed and equipment",
+        "Restrict movement of other animals in the area"
+      ],
+      "vet_urgency": "high",
+      "avoid": [
+        "Do not move the animal to markets or shared grazing areas",
+        "Do not give unapproved medication without a vet"
+      ]
+    },
+    "medium": {
+      "immediate_care": [
+        "Separate the animal from the herd",
+        "Keep the animal hydrated"
+      ],
+      "prevention": [
+        "Maintain good shed and equipment hygiene",
+        "Restrict unnecessary animal movement"
+      ],
+      "vet_urgency": "high",
+      "avoid": [
+        "Do not move the animal to markets or shared grazing areas",
+        "Do not give unapproved medication without a vet"
+      ]
+    },
+    "low": {
+      "immediate_care": [
+        "Continue observing the animal closely",
+        "Provide adequate water and comfortable feed"
+      ],
+      "prevention": [
+        "Maintain good hygiene around the animal",
+        "Monitor other animals for similar signs"
+      ],
+      "vet_urgency": "medium",
+      "avoid": [
+        "Do not move an animal showing suspicious signs without veterinary guidance"
+      ]
+    }
+  },
+
+  "Mastitis": {
+    "high": {
+      "immediate_care": [
+        "Keep the affected animal clean and comfortable",
+        "Contact a veterinarian for assessment and treatment guidance"
+      ],
+      "prevention": [
+        "Keep udders and bedding clean and dry",
+        "Follow good milking hygiene practices"
+      ],
+      "vet_urgency": "high",
+      "avoid": [
+        "Do not give unapproved medication without a vet"
+      ]
+    },
+    "medium": {
+      "immediate_care": [
+        "Keep the affected udder clean and dry",
+        "Contact a veterinarian for assessment"
+      ],
+      "prevention": [
+        "Use good pre- and post-milking hygiene",
+        "Keep bedding clean and dry"
+      ],
+      "vet_urgency": "medium",
+      "avoid": [
+        "Do not start unapproved antibiotic treatment"
+      ]
+    },
+    "low": {
+      "immediate_care": [
+        "Continue monitoring the udder and milk for changes",
+        "Maintain clean milking practices"
+      ],
+      "prevention": [
+        "Keep bedding clean and dry",
+        "Maintain good teat hygiene"
+      ],
+      "vet_urgency": "low",
+      "avoid": [
+        "Do not ignore worsening udder or milk abnormalities"
+      ]
+    }
+  },
+
+  "Blackleg": {
+    "high": {
+      "immediate_care": [
+        "Separate the affected animal from the herd",
+        "Contact a veterinarian immediately"
+      ],
+      "prevention": [
+        "Discuss appropriate vaccination with a veterinarian",
+        "Move animals from affected pastures when advised"
+      ],
+      "vet_urgency": "high",
+      "avoid": [
+        "Do not delay veterinary assessment",
+        "Do not attempt unapproved treatment"
+      ]
+    },
+    "medium": {
+      "immediate_care": [
+        "Separate the animal from the herd",
+        "Contact a veterinarian promptly"
+      ],
+      "prevention": [
+        "Discuss vaccination with a veterinarian",
+        "Monitor other susceptible animals"
+      ],
+      "vet_urgency": "high",
+      "avoid": [
+        "Do not delay veterinary assessment"
+      ]
+    }
+  },
+
+  "Hemorrhagic Septicemia": {
+    "high": {
+      "immediate_care": [
+        "Separate the affected animal from other animals",
+        "Contact a veterinarian immediately"
+      ],
+      "prevention": [
+        "Discuss appropriate vaccination with a veterinarian",
+        "Reduce contact with potentially infected animals"
+      ],
+      "vet_urgency": "high",
+      "avoid": [
+        "Do not delay veterinary assessment",
+        "Do not give unapproved medication without a vet"
+      ]
+    },
+    "medium": {
+      "immediate_care": [
+        "Separate the animal from the herd",
+        "Contact a veterinarian promptly"
+      ],
+      "prevention": [
+        "Maintain good farm hygiene",
+        "Discuss vaccination with a veterinarian"
+      ],
+      "vet_urgency": "high",
+      "avoid": [
+        "Do not move the animal unnecessarily",
+        "Do not delay veterinary assessment"
+      ]
+    }
+  },
+
+  "Anthrax": {
+    "high": {
+      "immediate_care": [
+        "Isolate the suspected animal",
+        "Contact a veterinarian and follow local animal-health guidance"
+      ],
+      "prevention": [
+        "Keep animals away from potentially contaminated areas",
+        "Follow veterinary guidance for vaccination and contaminated-site control"
+      ],
+      "vet_urgency": "high",
+      "avoid": [
+        "Do not open or handle a suspected anthrax carcass",
+        "Do not move or dispose of a suspected carcass without veterinary guidance"
+      ]
+    }
+  },
+
+  "Contagious Bovine Pleuropneumonia (CBPP)": {
+    "high": {
+      "immediate_care": [
+        "Separate the affected animal from the herd",
+        "Contact a veterinarian promptly"
+      ],
+      "prevention": [
+        "Restrict animal movement as advised by veterinary authorities",
+        "Follow vaccination and herd-control guidance from a veterinarian"
+      ],
+      "vet_urgency": "high",
+      "avoid": [
+        "Do not move the animal to another herd or market",
+        "Do not delay veterinary assessment"
+      ]
+    }
+  }
+}
