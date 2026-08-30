@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+/* Enables the `dark:` utility variant, scoped to a `.dark` class on
+   <html> (toggled by ThemeContext) rather than the OS media query —
+   the user's explicit choice always wins over system preference. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ---------------------------------------------------------------
+   SIH26128 Design System - design tokens
+   Locked palette/scale from the approved UI/UX design system.
+
+   Light values live here as the @theme defaults. Dark mode is a
+   deliberately separate palette (see the `.dark` block below) —
+   not an inversion of these values — so both themes are designed,
+   not derived.
+   --------------------------------------------------------------- */
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  /* Brand */
+  --color-primary: #0f6b5c;
+  --color-primary-hover: #0b5347;
+
+  /* Neutrals / ink */
+  --color-ink: #1a1d23;
+  --color-steel: #5b6470;
+  --color-border: #e2e5e9;
+  --color-app-bg: #f7f8fa;
+
+  /* Surfaces — cards, inputs, panels sitting above the page bg.
+     Kept as their own token (not the static Tailwind `white`) so
+     dark mode can give them a real value instead of an invert. */
+  --color-surface: #ffffff;
+  --color-surface-hover: #f1f4f6;
+
+  /* Secondary accents */
+  --color-accent-blue: #2563a8;
+  --color-cluster: #6b4fa0;
+
+  /* Risk semantics - consistent everywhere risk appears */
+  --color-risk-low: #1e8e5a;
+  --color-risk-medium: #b7791f;
+  --color-risk-high: #c2410c;
+  --color-risk-critical: #b91c1c;
+
+  /* Sidebar (dark zone) — intentionally dark in both themes, it's
+     the app's fixed navigation "rail", not page content. */
+  --color-sidebar-bg: #12181a;
+
+  --radius-card: 8px;
+  --radius-control: 6px;
+}
+
+/* -----------------------------------------------------------------
+   DARK MODE — premium operational command-center palette.
+   Deep charcoal/slate (never pure black), lighter raised surfaces,
+   brightened-but-controlled accent and risk colors for contrast on
+   dark backgrounds, and a slightly lifted sidebar so the dark zone
+   still reads as distinct from the page background.
+   ----------------------------------------------------------------- */
+.dark {
+  --color-primary: #2dd4bf;
+  --color-primary-hover: #5eead4;
+
+  --color-ink: #e7edf0;
+  --color-steel: #93a3ad;
+  --color-border: #2a343c;
+  --color-app-bg: #0d1316;
+
+  --color-surface: #161e22;
+  --color-surface-hover: #1c262b;
+
+  --color-accent-blue: #6ea8dd;
+  --color-cluster: #b39ddb;
+
+  --color-risk-low: #34d399;
+  --color-risk-medium: #fbbf24;
+  --color-risk-high: #fb7a4b;
+  --color-risk-critical: #f87171;
+
+  --color-sidebar-bg: #10171a;
+}
+
+body {
+  margin: 0;
+  background: var(--color-app-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle, short transition when the theme is toggled — long/heavy
+   enough to feel intentional, short enough to never feel laggy.
+   The inline script in index.html sets the class before first
+   paint, so this never runs during initial load. */
+body,
+header,
+aside,
+main,
+div,
+button,
+input,
+table,
+tr,
+td,
+th,
+a,
+span,
+p,
+li {
+  transition:
+    background-color 150ms ease,
+    border-color 150ms ease,
+    color 150ms ease;
+}
+
+/* -----------------------------------------------------------------
+   Leaflet overrides — the library ships hardcoded light styling for
+   its popup/control chrome (Marker popups, zoom buttons) that does
+   not respond to our `.dark` class on its own. Everything else about
+   the map (tiles, markers) is already theme-aware at the component
+   level in SurveillanceMap.jsx.
+   ----------------------------------------------------------------- */
+.leaflet-container {
+  background: var(--color-app-bg);
+  font-family: var(--font-sans);
+}
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: var(--color-surface);
+  color: var(--color-ink);
+}
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+}
+.leaflet-popup-close-button {
+  color: var(--color-steel) !important;
+}
+.leaflet-control-zoom a {
+  background: var(--color-surface) !important;
+  color: var(--color-ink) !important;
+  border-color: var(--color-border) !important;
+}
+.leaflet-control-zoom a:hover {
+  background: var(--color-surface-hover) !important;
+}
+.leaflet-control-attribution {
+  background: color-mix(in srgb, var(--color-surface) 85%, transparent) !important;
+  color: var(--color-steel) !important;
+}
+.leaflet-control-attribution a {
+  color: var(--color-accent-blue) !important;
+}
+
+/* Visible keyboard focus ring everywhere - accessibility requirement
+   from the design system; never suppressed without a replacement. */
+:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--color-primary) 40%, transparent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Livestock Health Surveillance — SIH26128</title>
+    <script>
+      // Applied before first paint so the correct theme is present
+      // immediately — prevents a flash of the wrong theme on load.
+      // Kept in sync with ThemeContext.jsx (same key + fallback order).
+      (function () {
+        try {
+          var STORAGE_KEY = 'sih26128-theme'
+          var stored = localStorage.getItem(STORAGE_KEY)
+          var theme =
+            stored === 'light' || stored === 'dark'
+              ? stored
+              : window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light'
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark')
+          }
+          document.documentElement.style.colorScheme = theme
+        } catch (e) {
+          // localStorage/matchMedia unavailable — fall back to light.
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
